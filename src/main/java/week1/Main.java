@@ -2,6 +2,6 @@ package week1;
 
 public class Main  {
     public static void main(String[] args) {
-        System.out.println("Hello Patika Dev");
+        System.out.println("Hello Patika Course");
     }
 }

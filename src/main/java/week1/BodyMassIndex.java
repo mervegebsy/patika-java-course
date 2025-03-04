@@ -10,7 +10,7 @@ public class BodyMassIndex {
         System.out.println("Lütfen kilonuzu giriniz: ");
         double kg = scanner.nextDouble();
         double square = Math.pow(height,2);
-        double bmi = kg / square;
+        double bmi = kg / square; // vücut kitle indeksi formülü kg / boyun karesi
         System.out.println("Vücut kitle indeksiniz : " + bmi);
     }
 }

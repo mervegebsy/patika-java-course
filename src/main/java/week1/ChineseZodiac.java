@@ -7,7 +7,7 @@ public class ChineseZodiac {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Doğum Yılınızı Giriniz: ");
         int birthYear = scanner.nextInt();
-        int zodiacNumber = birthYear % 12;
+        int zodiacNumber = birthYear % 12; // çin zodyağı 12nin bölümünden kalana göre belirlenir
 
         switch (zodiacNumber){
             case 0 :
@@ -49,6 +49,9 @@ public class ChineseZodiac {
             case 11 :
                 System.out.println("Çin Zodyağı Burcunuz: Koyun");
                 break;
+            default:
+                System.out.println("Hatalı veri girdiniz");
+
         }
 
 

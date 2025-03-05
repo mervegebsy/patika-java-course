@@ -11,7 +11,7 @@ public class OrderOfOperations {
         int sayi1 = scanner.nextInt();
         System.out.println("Üçüncü sayıyı giriniz: "); // üçüncü sayi alınır
         int sayi2 = scanner.nextInt();
-        int sonuc = sayi + sayi1 * sayi2 - sayi1; // yapılacak işlemler yaptırılır
+        int sonuc = (sayi + sayi1) * (sayi2 - sayi1); // yapılacak işlemler yaptırılır
         System.out.println( "Sonuç: " + sonuc);
     }
 }

@@ -13,6 +13,7 @@ public class Casting {
         double sayi = (double) tamSayi; // ondalıklıya çevrildi
         int sayi2 = (int) ondalikliSayi; // tam sayıya çevrildi
 
+
         System.out.println( tamSayi + " ondalıklı sayıya dönüştürüldü: " + sayi);
         System.out.println( ondalikliSayi + " tam sayıya dönüştürüldü: " + sayi2);
     }

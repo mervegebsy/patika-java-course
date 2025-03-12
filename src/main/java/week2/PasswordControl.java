@@ -7,7 +7,9 @@ public class PasswordControl {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bir şifre giriniz: ");
         String password = scanner.next();
-        if(password.length() >= 8 && !password.contains(" ")  && Character.isUpperCase(password.charAt(0)) && password.endsWith("?")){
+        //kullanıcıdan şifre alınır
+
+        if(password.length() >= 8 && !password.contains(" ")  && Character.isUpperCase(password.charAt(0)) && password.endsWith("?")){ //kontroller yapılıyor
             System.out.println("Geçerli şifre");
         }
         else {

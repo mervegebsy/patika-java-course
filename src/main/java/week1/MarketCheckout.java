@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class MarketCheckout {
     public static void main(String[] args) {
 
-
         Scanner scanner = new Scanner(System.in);
 
         String[] urunler = {"Armut", "Elma", "Domates", "Muz", "Patlıcan"}; // ürünlerin listesi olusturuldu

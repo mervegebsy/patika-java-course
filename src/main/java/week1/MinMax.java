@@ -17,6 +17,7 @@ public class MinMax {
             }
         }
 
+
         System.out.println(" 3'e ve 4'e bölünenlerin ortalaması: " + sum / counter); // ortalama hesaplaması yazdırıldı
 
     }
